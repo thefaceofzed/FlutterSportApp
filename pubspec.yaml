@@ -226,7 +226,8 @@ flutter:
     - assets/page-1/images/card.png
     - assets/page-1/images/image-HKZ.png
     - assets/page-1/images/landingpagefitness-1.png
-
+    - assets/page-1/images/david.png
+    
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
