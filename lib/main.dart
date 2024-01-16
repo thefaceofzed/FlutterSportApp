@@ -4,6 +4,7 @@ import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/page-1/gender.dart';
 import 'package:myapp/page-1/height.dart';
+import 'package:myapp/page-1/weight.dart';
 import 'package:myapp/utils.dart';
 import 'package:myapp/page-1/iphone-13-pro-max-64.dart';
 import 'package:myapp/page-1/iphone-13-pro-max-65.dart';
@@ -63,7 +64,8 @@ class MyPageView extends StatelessWidget {
           Signin(),
           Genderx(),
           Age(),
-          Height(), // Page d'inscription
+          Height(),
+          Weight(), // Page d'inscription
         ],
       ),
     );
