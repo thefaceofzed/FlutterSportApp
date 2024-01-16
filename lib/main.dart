@@ -30,7 +30,7 @@ import 'package:myapp/page-1/food-category.dart';
 // import 'package:myapp/page-1/trainer-detail.dart';
 // import 'package:myapp/page-1/reviews.dart';
 // import 'package:myapp/page-1/write-a-review.dart';
-// import 'package:myapp/page-1/appointment.dart';
+ import 'package:myapp/page-1/appointment.dart';
 // import 'package:myapp/page-1/payment.dart';
 // import 'package:myapp/page-1/edit-card.dart';
 // import 'package:myapp/page-1/payment-completed.dart';
@@ -63,13 +63,10 @@ class MyPageView extends StatelessWidget {
           wlc(),    // Page d'accueil
           SignUP(), 
           Signin(),
-          Genderx(),
-          Age(),
-          Height(),
-          Weight(),
-          
+          Calories(),
           work(),
-          Food(), // Page d'inscription
+          Food(),
+          Plan(), // Page d'inscription
         ],
       ),
     );
