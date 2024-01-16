@@ -20,9 +20,9 @@ import 'package:myapp/page-1/iphone-13-pro-max-66.dart';
  import 'package:myapp/page-1/gender-2.dart';
   import 'package:myapp/page-1/age.dart';
 // import 'package:myapp/page-1/height.dart';
-// import 'package:myapp/page-1/home.dart';
+ import 'package:myapp/page-1/home.dart';
 // import 'package:myapp/page-1/workout-plan-detail.dart';
-// import 'package:myapp/page-1/workout-categories.dart';
+ import 'package:myapp/page-1/workout-categories.dart';
 // import 'package:myapp/page-1/popup-for-pro-user.dart';
 // import 'package:myapp/page-1/popup-for-standart-user-.dart';
 // import 'package:myapp/page-1/fitness-instructors.dart';
@@ -59,13 +59,15 @@ class MyPageView extends StatelessWidget {
       body: PageView(
         scrollDirection: Axis.horizontal, // Définir la direction du défilement sur l'axe horizontal
         children: [
-          Home(),    // Page d'accueil
+          wlc(),    // Page d'accueil
           SignUP(), 
           Signin(),
           Genderx(),
           Age(),
           Height(),
-          Weight(), // Page d'inscription
+          Weight(),
+          
+          work(), // Page d'inscription
         ],
       ),
     );
