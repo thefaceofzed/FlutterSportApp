@@ -227,7 +227,18 @@ flutter:
     - assets/page-1/images/image-HKZ.png
     - assets/page-1/images/landingpagefitness-1.png
     - assets/page-1/images/david.png
-    
+    - assets/page-1/images/breakfast.jpg
+    - assets/page-1/images/omelette.jpg
+    - assets/page-1/images/pancakes.jpg
+    - assets/page-1/images/avocado.jpg
+    - assets/page-1/images/lunch.jpg
+    - assets/page-1/images/dinner.jpg
+    - assets/page-1/images/lunch_1.jpg
+    - assets/page-1/images/lunch_2.jpg
+    - assets/page-1/images/lunch_3.jpg
+    - assets/page-1/images/Dinner_1.jpg
+    - assets/page-1/images/dinner_2.jpg
+    - assets/page-1/images/dinner_3.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

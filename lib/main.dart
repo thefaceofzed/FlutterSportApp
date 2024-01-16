@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/gestures.dart';
 import 'dart:ui';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:myapp/page-1/food-category.dart';
 import 'package:myapp/page-1/gender.dart';
 import 'package:myapp/page-1/height.dart';
 import 'package:myapp/page-1/weight.dart';
@@ -9,8 +10,8 @@ import 'package:myapp/utils.dart';
 import 'package:myapp/page-1/iphone-13-pro-max-64.dart';
 import 'package:myapp/page-1/iphone-13-pro-max-65.dart';
 import 'package:myapp/page-1/iphone-13-pro-max-66.dart';
- import 'package:myapp/page-1/screenshot-2023-12-15-160900-1.dart';
- 
+import 'package:myapp/page-1/screenshot-2023-12-15-160900-1.dart';
+import 'package:myapp/page-1/food-category.dart';
 // import 'package:myapp/page-1/iphone-13-pro-max-67.dart';
 // import 'package:myapp/page-1/iphone-13-pro-max-56.dart';
 // import 'package:myapp/page-1/iphone-13-pro-max-57.dart';
@@ -67,7 +68,8 @@ class MyPageView extends StatelessWidget {
           Height(),
           Weight(),
           
-          work(), // Page d'inscription
+          work(),
+          Food(), // Page d'inscription
         ],
       ),
     );
